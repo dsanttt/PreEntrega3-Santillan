@@ -1,0 +1,246 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
+    height: 70px;
+    justify-content:space-between;
+}
+.tit{
+    color: white;
+    margin: 30px;
+    font-family: Figtree-VariableFont;
+    font-size: 40px;
+    
+}
+nav ul{
+    list-style-type: none;
+    display: flex;
+    padding: 40px;
+    font-family: BebasNeue;
+
+}
+nav li a{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    transition: 0.5;
+    font-size: 15px;
+    padding: 20px;
+}
+nav li a:hover{
+    text-decoration: underline;
+}
+
+.headi{
+    background-image: url(../img/portada-vape2.webp);
+    background-size: cover;
+    width: 100%;
+    height: 300px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.descp{
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-family: BebasNeue;
+
+}
+
+
+@font-face {
+    font-family: BebasNeue ;
+    src: url(../fonts/BebasNeue-Regular.ttf);
+}
+@font-face {
+    font-family:FrancoisOne;
+    src: url(../fonts/FrancoisOne-Regular.ttf);
+}
+@font-face {
+    font-family:Neucha-Regular ;
+    src: url(../fonts/Neucha-Regular.ttf);
+}
+@font-face {
+    font-family: Figtree-VariableFont;
+    src: url(../fonts/Figtree-VariableFont_wght.ttf);
+}
+@font-face {
+    font-family:Anton-Regular ;
+    src: url(../fonts/Anton-Regular.ttf);
+}
+@font-face {
+    font-family:PatuaOne-Regular ;
+    src: url(../fonts/PatuaOne-Regular.ttf);
+}
+
+.productosdest{
+    color: white;
+    text-align: center;
+    font-family: BebasNeue;
+    font-size: 30px;
+    padding: 20px;
+}
+.tarjetas{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.tarjeta{
+    width: 250px;
+    border: 2px solid rgb(134, 134, 134);
+    border-radius: 8px;
+    margin: 10px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    font-family: BebasNeue;
+    text-align: center;
+}
+.tarjeta img:hover{
+    transform: scale(1.1) ;
+}
+
+.tarjeta__img{
+    width: 200px;
+    height: 200px;
+    transition: 1s;
+}
+
+.tarjeta__titulo{
+    text-align: center;
+    font-family: BebasNeue;
+}
+
+.btn{
+    padding: 10px 20px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 5px;
+    font-family: BebasNeue;
+}
+main{
+    background-color:rgb(0, 0, 0);
+}
+
+footer{
+    background-color: rgb(60, 60, 60);
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    height: 50px;
+}
+.redesfo{
+    margin: 10px;
+}
+.formcont{
+    width: 400px;
+    justify-content: center;
+    align-items: center;
+}
+.maincontact{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    font-family: BebasNeue; 
+    height: 630px;
+    padding: 20px;
+    text-align: center;
+}
+
+.formpalab{
+    padding: 15px;
+}
+.productit{
+    color: white;
+    font-family: BebasNeue; 
+    text-align: center;
+    padding: 20px;
+}
+.tarjeta-product{
+    width: 250px;
+    height: 360px;
+    border: 2px solid rgb(134, 134, 134);
+    border-radius: 8px;
+    margin: 10px;
+    padding: 15px;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    gap: 10px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    font-family: BebasNeue;
+    text-align: center;
+}
+
+.tarjetas-produc{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.titpreg{
+    color: white;
+    text-align: center;
+    font-family: BebasNeue;
+    font-size: 40px;
+}
+.pregs{
+    color: white;
+    padding: 20px;
+}
+.pregs h3{
+    font-family: BebasNeue;
+    font-size: 22px;
+}
+.pregs p{
+    font-family: Figtree-VariableFont;
+}
+.lista-pregs{
+    font-family: Figtree-VariableFont;
+    padding: 10px;
+}
+
+.tit-env{
+    color: white;
+    text-align: center;
+    font-family: BebasNeue;
+    font-size: 40px;
+}
+
+.tarjeta-env{
+    border-radius: 8px;
+    margin: 10px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    font-family: BebasNeue;
+    text-align: center;
+    font-size: 25px;
+}
+.tarjetas-env{
+    justify-content: space-around;
+    display: flex;
+    flex-wrap:wrap
+}
+.tarjeta__img-env{
+    height: 400px;
+}
+
