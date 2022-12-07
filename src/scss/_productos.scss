@@ -1,0 +1,18 @@
+.productit{
+    color: white;
+    font-family: BebasNeue; 
+    text-align: center;
+    padding: 20px;
+}
+
+.tarjeta-product{
+    @extend %tarjetasProductos;
+}
+
+.tarjetas-produc{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+

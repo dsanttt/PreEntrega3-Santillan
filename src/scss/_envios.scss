@@ -1,0 +1,20 @@
+.tarjeta-env{
+    @extend %tarjetaEnvios;
+}
+
+.tit-env{
+    color: white;
+    text-align: center;
+    font-family: BebasNeue;
+    font-size: 40px;
+}
+
+.tarjetas-env{
+    justify-content: space-around;
+    display: flex;
+    flex-wrap:wrap
+}
+.tarjeta__img-env{
+    height: 300px;
+    width: 300px;
+}

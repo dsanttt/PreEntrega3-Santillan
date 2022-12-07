@@ -1,0 +1,16 @@
+.formcont{
+    width: 400px;
+    justify-content: center;
+    align-items: center;
+}
+.maincontact{
+    @extend %mainContacto;
+}
+
+.formpalab{
+    padding: 15px;
+}
+
+.row{
+    justify-content: center;
+}

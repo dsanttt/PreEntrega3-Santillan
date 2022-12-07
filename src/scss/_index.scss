@@ -1,0 +1,53 @@
+.headi{
+    @extend %headIndex;
+}
+
+.descp{
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-family: BebasNeue;
+
+}
+
+.productosdest{
+    color: white;
+    text-align: center;
+    font-family: BebasNeue;
+    font-size: 30px;
+    padding: 20px;
+}
+
+.tarjetas{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.tarjeta{
+    @extend %tarjetaIndex;
+    .btn{
+        padding: 10px 20px;
+        background-color: rgb(255, 255, 255);
+        color: rgb(0, 0, 0);
+        border: none;
+        border-radius: 5px;
+        font-family: BebasNeue;
+    }
+}
+
+
+.tarjeta__img{
+    width: 200px;
+    height: 200px;
+    transition: 1s;
+}
+
+.tarjeta img:hover{
+    transform: scale(1.1) ;
+}
+
+.tarjeta__titulo{
+    text-align: center;
+    font-family: BebasNeue;
+}
+
